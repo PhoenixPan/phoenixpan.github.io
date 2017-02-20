@@ -51,13 +51,14 @@ body {
         transition: all 0.5s;
     }
 
+
     .contact-info {
         font-size: 1.5em;
         padding:5px;
     }
 
 #header {
-    background: url(resources/pc80.png) no-repeat center center;
+    background: url(resources/pc80.png) no-repeat 70% center;
     background-size: cover;
     height:100vh;
     /*max-width: 100%;*/
@@ -73,7 +74,7 @@ body {
     height:100%;
 	padding-top:70px;
 	position: relative;
-    width:100%;
+    width: 100%;
 }
 
 #personal-div {
@@ -184,7 +185,7 @@ body {
 
     .bottom-element {
         line-height: 50px;
-        /*text-align: center;*/
+
     }
 
 
