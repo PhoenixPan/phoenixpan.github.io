@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phoenix's Nest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/blogStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Raleway|Lato:400,700|Poiret+One" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<!-- navbar -->
+<div id="header">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <img id="navbar-img-nest" src="res/img/nest.png"><a class="navbar-brand"
+                                                                    href="http://phoenixpan.github.io">Phoenix's
+                Nest</a>
+                <!-- target id has to match the id on collapse div -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#collapse-demo" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <!-- show 3 dashes in hamburger -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- target id has to match here -->
+            <div class="collapse navbar-collapse" id="collapse-demo">
+                <!--  					<ul class="nav navbar-nav navbar-left">
+                                         <li class="active"><a href="http://phoenixpan.github.io">Home</a></li>
+                                         <li><a href="#">About me</a></li>
+                                     </ul> -->
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="resume.html" target="_blank"><i class="fa fa-user" aria-hidden="true"></i> About me</a>
+                    </li>
+                    <li><a href="https://github.com/PhoenixPan" target="_blank"><i class="fa fa-github"
+                                                                                   aria-hidden="true"></i> Github</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">
+                            <i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
+                        <ul class="dropdown-menu">
+                            <li class="contact-info"><a href="#">Email: phoenixpan1992@gmail.com</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="contact-info"><a href="#">Mobile (AU): 0450 084 688</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="header-container">
+        <!-- main page -->
+        <div id="personal-div">
+            <p id="personal-name">Phoenix Pan</p>
+            <hr id="personal-bar">
+            <p id="personal-motto">Because It's There.</p>
+            <a href="#contents">
+                <button id="move-down"><i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<a id="target-anchor" name="contents"></a>
+<div id="blog-posts-container">
+    <article id="post-0001" class="post">
+        <h1 class="post-title">
+            <a href="#" title="Example Post1">Lorem Ipsum 1</a>
+        </h1>
+        <p class="post-brief">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages<a href="">Read more</a>
+        </p>
+    </article>
+    <article id="post-0002" class="post">
+        <h1 class="post-title">
+            <a href="#" title="Example Post1">Lorem Ipsum 2</a>
+        </h1>
+        <p class="post-brief">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages<a href="">Read more</a>
+        </p>
+    </article>
+    <article id="post-0003" class="post">
+        <h1 class="post-title">
+            <a href="#" title="Example Post1">Lorem Ipsum 3</a>
+        </h1>
+        <p class="post-brief">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages<a href="">Read more</a>
+        </p>
+    </article>
+</div>
+
+<div id="bottom-bar">
+    <div class="container">
+        <div class="bottom-element">
+            <i class="fa fa-copyright" aria-hidden="true"></i> Designed by Phoenix / Inspired by <a
+                href="http://www.gnuton.org/blog/" target="_blank" id="gnuton-link">Gnuton's Blog</a>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/blog.js"></script>
+</body>
+</html>
