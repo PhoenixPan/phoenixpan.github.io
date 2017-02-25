@@ -162,15 +162,16 @@ body {
         /*text-overflow: ellipsis;*/
 	}
 
+#page-selection {
+    height: 100px;
+}
 
 #bottom-bar {
     background: rgba(0, 0, 0, 0.7);
     border: 0;
     bottom: 0;
-    /*display: block;*/
-    /*position: fixed;*/
-
     height: 50px;
+    position: relative;
     width: 100%;
 }
 
@@ -185,7 +186,6 @@ body {
 
     .bottom-element {
         line-height: 50px;
-
     }
 
 
