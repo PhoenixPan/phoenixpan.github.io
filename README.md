@@ -9,3 +9,6 @@ Come in, come in! What a nice surprise - I had no idea you would be visiting tod
 2. Login GoDaddy > Manage domain > DNS Zone File.
 3. Under A (Host) change @ point to 192.30.252.153.
 4. Under CName (Alias) change www point to website.github.io.
+
+[Reference1](https://medium.com/@LovettLovett/github-pages-godaddy-f0318c2f25a)  
+[Reference2](https://mycyberuniverse.com/web/configuring-a-godaddy-domain-name-with-github-pages.html)
