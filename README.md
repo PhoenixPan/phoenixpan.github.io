@@ -5,7 +5,7 @@ Come in, come in! What a nice surprise - I had no idea you would be visiting tod
 
 ## Setup Godaddy Domain for This Page
 
-Create a new file CNAME and put the domain.com in the file.
-Login GoDaddy > Manage domain > DNS Zone File.
-Under A (Host) change @ point to 192.30.252.153.
-Under CName (Alias) change www point to website.github.io.
+1. Create a new file CNAME and put the domain.com in the file.
+2. Login GoDaddy > Manage domain > DNS Zone File.
+3. Under A (Host) change @ point to 192.30.252.153.
+4. Under CName (Alias) change www point to website.github.io.
