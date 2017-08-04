@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	font-family: lato, Arial;
+	font-family: lato, sans-serif;
 	height: 100%;
 }
 
@@ -34,7 +34,7 @@ body {
     .navbar .navbar-brand {
         color: white;
         display: inline;
-        font-family: Bangers, Arial;
+        font-family: Bangers, sans-serif;
         font-size: 2em;
         margin: 5px 0;
         outline: none;
@@ -103,7 +103,7 @@ body {
 	}
 
 	#personal-motto {
-		font-family: "Poiret One", Georgia;
+		font-family: "Poiret One", sans-serif;
 		font-size:calc(10px + 2vw);
 		letter-spacing: 0.1em;
 	}
@@ -149,10 +149,10 @@ body {
 	.introduction-title {
 		color: #555555;
         font-size: calc(1.2em + 2vw);
-        font-family: Roboto Arial;
+        font-family: Roboto, sans-serif;
         font-weight: bold;
         margin: 30px auto;
-        padding: 10px 0px;
+        padding: 10px 0;
 		text-decoration: none;
 	}
 
@@ -170,13 +170,13 @@ body {
 
 .my-name-font {
     color: #000000;
-    font-family: Raleway;
+    font-family: Kalam, cursive;
     font-weight: bold;
 }
 
 .carnegie-mellon-font {
     color: #9c0000;
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", cursive;
     font-weight: bold;
 }
 
