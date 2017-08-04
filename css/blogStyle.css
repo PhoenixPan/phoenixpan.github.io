@@ -129,38 +129,64 @@ body {
 	height: 100px;
 }
 
-#blog-posts-container {
+#introduction-container {
 	margin: auto;
 	width: 80%;
 
 }
 
-.post {
+.introduction {
     /*display: block;*/
-    border-bottom: 2px solid rgba(107,120,180,0.3);
-	padding-bottom: 20px;
+	padding: 20px 20px;
     position: relative;
     margin: 0 auto 40px auto;
 	max-width: 800px;
     /*min-height: 200px;*/
-	width: 80%;
+	width: 100%;
 }
 
 
-	.post-title a {
-		color: black;
+	.introduction-title {
+		color: #555555;
+        font-size: calc(1.2em + 2vw);
+        font-family: Roboto Arial;
+        font-weight: bold;
+        margin: 30px auto;
+        padding: 10px 0px;
 		text-decoration: none;
 	}
 
-	.post-brief {
-		font-size: 1.3em;
+	.introduction-brief {
+        color: #777777;
+		font-size: calc(1.2em + 0.5vw);
 		line-height: 1.5em;
+        margin: 30px auto;
         /*height: 100px;*/
         /*word-wrap: break-word;*/
         /*white-space: nowrap;*/
         /*overflow: hidden;*/
         /*text-overflow: ellipsis;*/
 	}
+
+.my-name-font {
+    color: #000000;
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+.carnegie-mellon-font {
+    color: #9c0000;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+.linkedin-font {
+    color: #0077b5;
+}
+
+.career-font {
+    color: #ff6f19;
+}
 
 #page-selection {
     height: 100px;
