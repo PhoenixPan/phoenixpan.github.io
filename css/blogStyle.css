@@ -1,0 +1,218 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+	/*outline: 1px solid red;*/
+}
+
+html {
+	height:100%;
+}
+
+body {
+	font-family: lato, sans-serif;
+	height: 100%;
+}
+
+.navbar-right {
+    height: 100%;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.7);
+    border: 0;
+}
+
+    .navbar #navbar-img-nest {
+        display: inline;
+        float: left;
+        height: 40px;
+        padding: 5px 5px 0 5px;
+        margin-top:10px;
+    }
+
+    .navbar .navbar-brand {
+        color: white;
+        display: inline;
+        font-family: Bangers, sans-serif;
+        font-size: 2em;
+        margin: 5px 0;
+        outline: none;
+    }
+
+    .navbar .navbar-nav > li > a {
+        color: white;
+        padding: 20px 10px;
+        transition: all 0.5s;
+    }
+
+    .navbar .navbar-nav > li:hover > a {
+        background: #ff4343;
+        transition: all 0.5s;
+    }
+
+
+    .contact-info {
+        font-size: 1.5em;
+        padding:5px;
+    }
+
+#header {
+    background: url(resources/pc80.png) no-repeat 70% center;
+    background-size: cover;
+    height:100vh;
+    /*max-width: 100%;*/
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+    width: 100%;
+    /*width:100vw;*/
+}
+
+#header-container {
+	display:table;
+    height:100%;
+	padding-top:70px;
+	position: relative;
+    width: 100%;
+}
+
+#personal-div {
+	color: white;
+	display: table-cell;
+	padding: 0;
+	position:relative;
+	text-align: center;
+	text-shadow: 1px 3px 3px  rgba(107, 120, 180, 0.5),
+	1px 5px 8px rgba(107, 94, 170, 0.3),
+	1px 8px 12px rgba(94, 94, 160, 0.2);
+	vertical-align: middle;
+	z-index: 1;
+}
+
+	#personal-name {
+		font-size: calc(20px + 5vw);
+		font-weight: 700;
+	}
+
+	#personal-bar {
+		border-bottom: 2px solid rgba(0,0,0,0.3);
+		border-top: 2px solid #f8f8f8;
+		margin: 10px auto;
+		width: calc(60px + 50%);
+	}
+
+	#personal-motto {
+		font-family: "Poiret One", sans-serif;
+		font-size:calc(10px + 2vw);
+		letter-spacing: 0.1em;
+	}
+
+#move-down {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
+	margin-top:30px;
+	padding:0 30px;
+	text-decoration: none;
+}
+
+#move-down:focus {
+	outline:0;
+}
+
+
+#target-anchor {
+	display: block;
+	height: 100px;
+}
+
+#introduction-container {
+	margin: auto;
+	width: 80%;
+
+}
+
+.introduction {
+    /*display: block;*/
+	padding: 20px 20px;
+    position: relative;
+    margin: 0 auto 40px auto;
+	max-width: 800px;
+    /*min-height: 200px;*/
+	width: 100%;
+}
+
+
+	.introduction-title {
+		color: #555555;
+        font-size: calc(1.2em + 2vw);
+        font-family: Roboto, sans-serif;
+        font-weight: bold;
+        margin: 30px auto;
+        padding: 10px 0;
+		text-decoration: none;
+	}
+
+	.introduction-brief {
+        color: #777777;
+		font-size: calc(1.2em + 0.5vw);
+		line-height: 1.5em;
+        margin: 30px auto;
+        /*height: 100px;*/
+        /*word-wrap: break-word;*/
+        /*white-space: nowrap;*/
+        /*overflow: hidden;*/
+        /*text-overflow: ellipsis;*/
+	}
+
+.my-name-font {
+    color: #000000;
+    font-family: Kalam, cursive;
+    font-weight: bold;
+}
+
+.carnegie-mellon-font {
+    color: #9c0000;
+    font-family: "Times New Roman", cursive;
+    font-weight: bold;
+}
+
+.linkedin-font {
+    color: #0077b5;
+}
+
+.career-font {
+    color: #ff6f19;
+}
+
+#page-selection {
+    height: 100px;
+}
+
+#bottom-bar {
+    background: rgba(0, 0, 0, 0.7);
+    border: 0;
+    bottom: 0;
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+
+#bottom-bar {
+    color: white;
+}
+
+    #gnuton-link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .bottom-element {
+        line-height: 50px;
+    }
+
+
+
