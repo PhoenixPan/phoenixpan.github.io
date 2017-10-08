@@ -58,7 +58,7 @@ body {
     }
 
 #header {
-    background: url(resources/pc80.png) no-repeat 70% center;
+    background: url(resources/pc80.jpg) no-repeat 70% center;
     background-size: cover;
     height:100vh;
     /*max-width: 100%;*/
