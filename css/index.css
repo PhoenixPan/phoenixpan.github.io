@@ -11,6 +11,7 @@ html {
 
 body {
 	font-family: lato, sans-serif;
+	font-size: 14px;
 	height: 100%;
 }
 
@@ -21,14 +22,12 @@ body {
 .navbar {
     background: rgba(0, 0, 0, 0.7);
     border: 0;
+	padding: 0;
 }
 
     .navbar #navbar-img-nest {
         display: inline;
-        float: left;
-        height: 40px;
-        padding: 5px 5px 0 5px;
-        margin-top:10px;
+        height: 30px;
     }
 
     .navbar .navbar-brand {
@@ -36,21 +35,33 @@ body {
         display: inline;
         font-family: Bangers, sans-serif;
         font-size: 2em;
+		height: 50px;
+		line-height: 20px;
         margin: 5px 0;
+		padding: 10px 10px 10px 10px;
         outline: none;
     }
+	
+	/*.navbar .navbar-toggler {*/
+	  /*border-color: #333;*/
+	/*}*/
+	
+	/*.navbar .navbar-toggler:hover {*/
+	  /*background-color: #333;*/
+	/*}*/
 
-    .navbar .navbar-nav > li > a {
+    .navbar .navbar-collapse .navbar-nav > li > a {
         color: white;
         padding: 20px 10px;
         transition: all 0.5s;
+		line-height: 20px;
     }
 
-    .navbar .navbar-nav > li:hover > a {
+    .navbar .navbar-collapse .navbar-nav > li:hover > a {
+		color: white;
         background: #ff4343;
         transition: all 0.5s;
     }
-
 
     .contact-info {
         font-size: 1.5em;
@@ -58,7 +69,7 @@ body {
     }
 
 #header {
-    background: url(resources/pc80.jpg) no-repeat 70% center;
+    background: url(../res/img/pc80.jpg) no-repeat 70% center;
     background-size: cover;
     height:100vh;
     /*max-width: 100%;*/
@@ -113,10 +124,16 @@ body {
     border: 1px solid white;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
     font-size: 2em;
 	margin-top:30px;
 	padding:0 30px;
 	text-decoration: none;
+}
+
+#move-down:hover {
+    transform: scale(1.5);
+    transition: all 0.5s;
 }
 
 #move-down:focus {
