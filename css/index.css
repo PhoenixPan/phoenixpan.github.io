@@ -127,7 +127,7 @@ body {
 }
 
   #move-down:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: all 0.5s;
   }
 
@@ -217,6 +217,7 @@ body {
 }
 
 .bottom-element {
+  font-size: 1rem;
   line-height: 50px;
 }
 
