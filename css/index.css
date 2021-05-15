@@ -34,7 +34,7 @@ body {
     color: white;
     display: inline;
     font-family: Bangers, sans-serif;
-    font-size: 2rem;
+    font-size: 20px;
     line-height: 2rem;
     margin: 0.5rem 0;
     padding: 0.5rem;
@@ -44,7 +44,7 @@ body {
   /*.navbar .navbar-collapse .navbar-nav > li > a {*/
   .navbar-nav .nav-item .nav-link {
     color: white;
-    font-size: 1.2rem;
+    font-size: 16px;
     line-height: 2rem;
     padding: 1rem 0.5rem;
     min-width: 7rem;
@@ -54,7 +54,7 @@ body {
 
   .navbar-nav .nav-item:hover .nav-link {
     color: white;
-    background: #ff4343;
+    background: rgba(240, 240, 240, 0.3);
     transition: all 0.5s;
   }
 
@@ -153,10 +153,9 @@ body {
 }
 
 .introduction-title {
-  color: #555555;
-  font-size: calc(1.2em + 2vw);
+  color: #777777;
+  font-size: calc(1.2em + 0.8vw);
   font-family: Roboto, sans-serif;
-  font-weight: bold;
   margin: 30px auto;
   padding: 10px 0;
   text-decoration: none;
@@ -180,14 +179,15 @@ body {
   font-weight: bold;
 }
 
-.carnegie-mellon-font {
+/* .carnegie-mellon-font {
   color: #9c0000;
   font-family: "Times New Roman", cursive;
   font-weight: bold;
-}
+} */
 
-.linkedin-font {
-  color: #0077b5;
+.plenti-link, .plenti-link:visited, .plenti-link:hover {
+  color: #002a61;
+  font-weight: bold;
 }
 
 .career-font {
