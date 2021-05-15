@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: lato, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 62.5%;
   height: 100%;
 }
@@ -99,6 +99,7 @@ body {
 #personal-name {
   font-size: calc(20px + 5vw);
   font-weight: 700;
+  font-family: "Roboto", sans-serif;
 }
 
 #personal-bar {
@@ -109,7 +110,7 @@ body {
 }
 
 #personal-motto {
-  font-family: "Poiret One", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: calc(10px + 2vw);
   letter-spacing: 0.1em;
 }
@@ -171,12 +172,6 @@ body {
   /*white-space: nowrap;*/
   /*overflow: hidden;*/
   /*text-overflow: ellipsis;*/
-}
-
-.my-name-font {
-  color: #000000;
-  font-family: Kalam, cursive;
-  font-weight: bold;
 }
 
 /* .carnegie-mellon-font {
