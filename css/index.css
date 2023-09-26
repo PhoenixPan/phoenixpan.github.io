@@ -185,6 +185,11 @@ body {
   font-weight: bold;
 }
 
+.playup-link, .playup-link:visited, .playup-link:hover {
+  color: #00f181;
+  font-weight: bold;
+}
+
 .career-font {
   color: #ff6f19;
 }
